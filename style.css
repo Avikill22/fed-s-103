@@ -33,11 +33,10 @@ body{
     align-items: center;
 }
 .row-round-runs>.col{
-    border: solid 2px;
+    border: ridge 1px;
     height: 25px;
     width: 25px;
     border-color: black;
-    background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
 }

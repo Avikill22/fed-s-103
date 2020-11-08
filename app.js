@@ -21,6 +21,11 @@ var selecTurn = () =>{
     turn = Math.round(Math.random());
 }
 var updateButtonText = () =>{
+    if(turn===1){
+        turn = 0;
+    }else{
+        turn = 1
+    }
     var button = document.getElementById("strike-button");
     var result  = document.getElementById("result");
     result.style.visibility = "";
